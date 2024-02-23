@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-wepper {
+    background-color:rgb(245, 243, 243) ;
+}
+.main-btn {
+    background-color:#12c4a0 !important;
+}
+.header-wepper .navbar-brand img {
+    max-width: 210px;
+    height: auto;
+}
+.header-wepper .navbar-menu {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+.header-wepper .navbar-menu .nav-item {
+    margin: 0 10px;
+}
+.header-wepper  .nav-item .nav-link {
+    color: black;
+    font-size: 18px;
+} 
+.header-wepper .navbar-menu .nav-link:active{
+    color: aqua;
+}
+.header-wepper .navbar-toggler:focus {
+    box-shadow: none;
+    border: none;
+
+}
+/* home section  */
+.banner-werpper {
+    width: 100%;
+    background-image: url("assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0.125px;
+}
+.banner-info {
+    line-height: 3rem;
+}
+.banner-info span {
+    color: #12c4a0;
+}
+.header-img-section img {
+    animation: float 5s ease-in-out infinite;
+    width: 100%;
+}
+@keyframes float {
+
+    0% {
+        transform: translatey(0px);
+    }
+    
+    50% {
+        transform: translatey(20px);
+    }
+
+    
+    100% {
+        transform: translatey(0px);
+    }
+    
+    
+}
+.about-inner-2 {
+    background-color: rgb(230, 222, 222);
+    width: 100%;
+}
+.project h2 {
+
+    color: orangered;
+    font-weight: 900;
+}
+.features-wrepper {
+    padding: 100px 0 80px;
+    background-color: gainsboro;
+}
+
+.features-wrepper .ft-1 {
+    padding: 40px;
+    border-radius: 15px;
+    background-color: #c47739;
+}
+.features-wrepper .ft-1::before{
+    content: url("assets/consultancy.png");
+    position: absolute;
+    display: block;
+    margin-top: -68px;
+}
+
+.features-wrepper .ft-2 {
+    padding: 40px;
+    border-radius: 15px;
+    background-color: #844eb6;
+}
+.features-wrepper .ft-2::before{
+    content: url("assets/solutions.png");
+    position: absolute;
+    display: block;
+    margin-top: -68px;
+}
+
+.features-wrepper .ft-3 {
+    padding: 40px;
+    border-radius: 15px;
+    background-color: #5e85b8;
+}
+.features-wrepper .ft-3::before{
+    content: url("assets/simple.png");
+    position: absolute;
+    display: block;
+    margin-top: -68px;
+}
+
+.features-wrepper .ft-4 {
+    padding: 40px;
+    border-radius: 15px;
+    background-color:#57c08a;
+}
+.features-wrepper .ft-4::before{
+    content: url("assets/deadline.png");
+    position: absolute;
+    display: block;
+    margin-top: -68px;
+}
+
+.features-wrepper .ft-5 {
+    padding: 40px;
+    border-radius: 15px;
+    background-color: #d14e4e;
+}
+.features-wrepper .ft-5::before{
+    content: url("assets/data.png");
+    position: absolute;
+    display: block;
+    margin-top: -68px;
+}
+
+.features-wrepper .ft-6 {
+    padding: 40px;
+    border-radius: 15px;
+    background-color:#d8b949;
+}
+.features-wrepper .ft-6::before{
+    content: url("assets/flexible.png");
+    position: absolute;
+    display: block;
+    margin-top: -68px;
+}
+.free-trail .free-title {
+
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 2.5rem;
+    margin-bottom: 0;
+    color: black;
+}
+.free-trail {
+    margin: 30px;
+}
+.free-trail a {
+    
+    padding: 10px;
+    margin-top: 14px;
+}
+.free-trail i {
+    color: #c47739;
+}
+.testimonial-wrapper {
+    padding: 100px 0;
+    background-color: gainsboro;
+}
+.testimonial-wrapper .testimonail-card {
+    margin-top: 60px;
+    box-shadow: 10px 10px 10px rgb(224, 222, 255);
+    padding-bottom: 26px;
+}
+.testimonial-wrapper .testimonail-text {
+    font-weight: bold;
+}
+.testimonial-wrapper .testimonail-role, .testimonail-subtitle {
+    color: #12c4a0;
+    font-weight: bold;
+}
+.fa-rocket {
+    color: #c47739;
+    padding-right: 5px;
+}
+/* faq section  */
+.faq-wrapper {
+    padding: 100px 0;
+}
+.faq-wrapper .accordion-button:hover,
+.faq-wrapper .accordion-button:focus{
+    box-shadow: none;
+    color: green;
+}
+.faq-wrapper .accordion-item {
+    border: 0;
+}
+.faq-wrapper .accordion-button{
+    font-size: 21px;
+    font-weight: 600;
+    color: black;
+    background-color: white;
+    border-radius: 0;
+    padding: 0 0 15px 0;
+    border-bottom: 0px solid gainsboro;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+/* 
+.faq-wrapper.accordion-button::after{
+
+    content: ".\0028";
+    font-family: "font Awesome 5 free";
+    display: inline-block;
+    background-image: none;
+} */
+.footr-wrapper {
+    padding: 100px 0 25px;
+    background:url("assets/bg_footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color: white;
+}
+.footr-wrapper .footer-logo img {
+    max-width: 30%;
+}
+.footr-wrapper .footer-text,
+.footr-wrapper .footer-text a {
+    margin-top: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.footr-wrapper .footer-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 25px;
+}
+.footr-wrapper .footer-social-media-icon {
+    padding-right: 30px;
+    color: white;
+    font-size: 20px;
+}
+.footr-wrapper .footer-credits {
+    color: white;
+    border-top: 1px solid wheat;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+@media ( max-width:1050px) {
+
+    .header-wepper  .nav-item .nav-link {
+        font-size: 15px;
+        margin: 0 7px;
+
+    }
+    .header-wepper .navbar-brand img {
+
+        width: 180px;
+    }
+}
+
+@media (max-width: 350px) {
+
+    .free-trail .free-title {
+        font-size: 20px;
+        line-height: normal;
+    }
+    .testimonial-wrapper .testimonail-text {
+        font-weight: normal;
+    }
+    .footr-wrapper .footer-logo img {
+        max-width: 60%;
+    }
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #fc770b;
+}
+::-webkit-scrollbar-thumb {
+    background-color: aqua;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #844eb6;
+}
